@@ -1,0 +1,151 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #000 !important;
+}
+
+.Headera{
+    font-size: 1.3rem !important;
+    color: white !important;
+    width: 100%;
+    /* height: 5rem !important; */
+}
+
+.link_text{
+    color: #fff !important;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+    background: #000 !important;
+}
+
+.link_text:hover{
+    color: #fff;
+}
+
+.maina img{
+    width: 6rem;
+
+    /* margin-right: 2rem !important; */
+}
+
+.afna,Nav.Link{
+    /* padding-left: 5rem !important; */
+}
+
+.hzn{
+    margin-left: 1.3rem !important;
+}
+
+.btna_navbar_here{
+    padding: 6px 15px 8px 15px !important;
+    border: 2px solid rgb(253,86,42) !important;
+    border-radius: 10px !important;
+
+    color: white !important;
+    font-size: 1.3rem !important;
+    margin-left: 1rem;
+
+}
+
+.navbar_linked{
+    margin-left:  auto !important;
+    border: 1px solid red;
+}
+
+.pic img{
+    width: 4rem;
+}
+
+@media screen and (max-width:600px) {
+
+    .pic img{
+        width: 4rem;
+    }
+    .hzna{
+        margin-left: rem;
+    }
+    .hxna{
+        margin-left: 2rem;
+    }
+
+    .btna_navbar_here{
+        border: 2px solid rgb(253,86,42) !important;
+        border-radius: 10px !important;
+
+        color: white !important;
+        font-size: 1.7rem !important;
+        width: 70vw;
+        margin-top: 1rem;
+        margin-left: -3rem;
+    
+    }
+    .nav_in_responsive{
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btna_navbar_here{
+        margin-left: 1rem
+    }
+    
+}
+
+@media (min-width:600px) and (max-width:1200px) {
+
+
+
+    .btna_navbar_here{
+        /* padding: 8px 5px 10px 2px !important; */
+        border: 2px solid rgb(253,86,42) !important;
+        border-radius: 10px !important;
+
+        color: white !important;
+        font-size: 1.7rem !important;
+        width: 30vw;
+
+        margin-top: 1rem;
+        margin-left: -3rem;
+    
+    }
+}
+
+.maina{
+    background-color: #24252563;
+
+}
+.link_text{
+    text-decoration: none;
+}
+.text_style{
+    text-decoration: none;
+
+}
+
+.select_main{
+    /* background-color: rgb(253,86,42) !important; */
+    background-color: transparent !important;
+    border: 2px solid  rgb(253,86,42) !important;
+    font-size: 1.3rem !important;
+    border-radius: 10px !important;
+    padding: 6px 15px 8px 15px !important;
+
+
+}
+.dropdown-menu{
+    background-color: black !important;
+    color: #fff !important;
+}
+.dropdown-menu li a{
+    color: #fff !important;
+
+}
+.dropdown-menu li:hover a{
+    color: rgb(253,86,42) !important;
+
+}
